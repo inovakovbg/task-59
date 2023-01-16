@@ -29,7 +29,12 @@ html {
 }
 
 
-@media screen and (min-width:600px){
- .discounts{display:none
+
+@media  screen and (max-width:600px){
+ .discounts{visibility:visible;
   }
 }
+@media  screen and (min-width:600px){
+  .discounts{visibility:hidden;
+   }
+ }
